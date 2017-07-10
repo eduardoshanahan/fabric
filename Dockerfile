@@ -8,3 +8,5 @@ RUN apk --update \
     py-pip \
 &&  pip install fabric \
 &&  apk del .install_dependencies_fabric \
+
+ENTRYPOINT ["/bin/sh"]
