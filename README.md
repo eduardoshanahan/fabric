@@ -7,7 +7,8 @@ A Docker image to apply remote commands from Python.
 ## Building
 
 ```bash
-docker build -t eduardoshanahan/fabric .
+docker build . -t eduardoshanahan/fabric:latest
+docker run -it --rm eduardoshanahan/fabric
 ```
 
 ## Running an interactive test
@@ -18,8 +19,8 @@ docker run --rm -it eduardoshanahan/fabric:latest
 
 ## Development
 
-If you want to make some changes and version it, [bumpversion](https://pypi.python.org/pypi/bumpversion) is available
-
+To send the commits to the remote server, you can use the script
 ```bash
-bumpversion patch
+./save.sh
 ```
+which will also create a new tag if the version is updated.
