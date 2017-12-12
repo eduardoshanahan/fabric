@@ -1,9 +1,13 @@
 # Changelog
 
+## [1.14.0.1] - 2017-12-12
+
+* Changed: Getting updated packages from Alpine image
+
 ## [1.14.0] - 2017-12-11
 
 * Removed: bumpversion details
 * Added: CHANGELOG.md
 * Added: version.json
-* Updated: Readme instructions
-* Updated: Paramiko 2.4.0
+* Changed: Readme instructions
+* Changed: Moved to Paramiko 2.4.0
