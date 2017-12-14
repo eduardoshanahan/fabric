@@ -1,7 +1,8 @@
 # Changelog
 
-## 2017-12-14
+## [1.14.0.2] - 2017-12-14
 
+* changed: Updated Paramiko base image to 2.4.0.3
 * Changed: added a tag creation script
 
 ## [1.14.0.1] - 2017-12-12
