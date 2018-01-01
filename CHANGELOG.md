@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.14.0.4] - 2018-01-01
+
+* Changed: Order of zlib and libressl installation
+
 ## [1.14.0.3] - 2017-12-31
 
 * Changed: Added zlib and libressl to enable hitting remote hosts
