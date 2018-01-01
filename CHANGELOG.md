@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.14.0.5] - 2018-01-01
+
+* New: Alpine version
+
 ## [1.14.0.4] - 2018-01-01
 
 * Changed: Order of zlib and libressl installation
